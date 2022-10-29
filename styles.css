@@ -211,7 +211,8 @@ h3  {
     margin-left: 10px;
 }
 
-.submit-add {
+.submit-add,
+.refresh {
     background-color: #0fb9b1;
     margin-left: 40px;
     height: 30px;
@@ -222,19 +223,6 @@ h3  {
 .name-error {
     margin-left: 30px;
     color: #ee5253;
-}
-
-.refresh {
-    background-color: #0fb9b1;
-    margin-left: 25px;
-    height: 30px;
-    width: 95px;
-    text-align: left;
-    border-radius: 5px;
-    border: 0;
-    background-image: url(assets/refresh.svg);
-    background-repeat: no-repeat;
-    background-position: right;
 }
 
 .hidden {
