@@ -132,15 +132,9 @@ function randomMealDisplayMessage() {
 
 function refreshResults() {
     recipeTypeText.value = ''
-    recipeNameText.value = ''    
+    recipeNameText.value = ''   
+    nameError.classList.add('hidden') 
 }
-
-
-
-
-
-
-
 
 function displayMadeRecipe(event) {
     event.preventDefault()
