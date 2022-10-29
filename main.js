@@ -162,7 +162,11 @@ function addRecipePageDisplay() {
     nameError.classList.add('hidden')
 }
 
-
+function randomMealDisplayMessage() {
+    clearButton.classList.remove('hidden')
+    nameError.classList.add('hidden')
+    makeMessage.classList.remove('hidden') 
+}
 
 function displayMeals(event) {
         event.preventDefault()
@@ -182,23 +186,19 @@ function displayMeals(event) {
     }
     if (checkedRadio.value === "side") {
         choiceDisplay.innerText = getRandomIndex(sides)
-        clearButton.classList.remove('hidden')
-        nameError.classList.add('hidden')
+        randomMealDisplayMessage()
     }
     if (checkedRadio.value === "main-dish") {
         choiceDisplay.innerText = getRandomIndex(mains)
-        clearButton.classList.remove('hidden')
-        nameError.classList.add('hidden')
+        randomMealDisplayMessage()
     }
     if (checkedRadio.value === "dessert") {
         choiceDisplay.innerText = getRandomIndex(desserts)
-        clearButton.classList.remove('hidden')
-        nameError.classList.add('hidden')
+        randomMealDisplayMessage()
     }
     if (checkedRadio.value === "entire-meal") {
-        clearButton.classList.remove('hidden')
-        nameError.classList.add('hidden')
         choiceDisplay.innerText = `${mainDish} with a side of ${sideDish} and ${dessertDish} for dessert!`
+        randomMealDisplayMessage()
     }       
 }
 
