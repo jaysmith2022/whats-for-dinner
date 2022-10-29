@@ -23,6 +23,7 @@ var addNewRecipeButton = document.querySelector('#submit-new-recipe')
 var recipeTypeText = document.querySelector('#recipe-type')
 var recipeNameText = document.querySelector('#recipe-name')
 var nameError = document.querySelector('#new-name-error')
+var refreshButton = document.querySelector('#refresh-button')
 
 
 var sides = [
@@ -81,7 +82,7 @@ letsCookButton.addEventListener('click', displayMeals)
 clearButton.addEventListener('click', clearMealMessage)
 addRecipeButton.addEventListener('click', addRecipe)
 addNewRecipeButton.addEventListener('click', displayMadeRecipe)
-
+refreshButton.addEventListener('click', refreshResults)
 
 
 function getRandomIndex(array) {
@@ -116,6 +117,30 @@ function addRecipe(event) {
     event.preventDefault()
     addFooter.classList.remove('hidden')
 }
+
+function addRecipePageDisplay() {
+    potImage.classList.add('hidden')
+    mealMessage.classList.remove('hidden')
+    nameError.classList.add('hidden')
+}
+
+function randomMealDisplayMessage() {
+    clearButton.classList.remove('hidden')
+    nameError.classList.add('hidden')
+    makeMessage.classList.remove('hidden') 
+}
+
+function refreshResults() {
+    recipeTypeText.value = ''
+    recipeNameText.value = ''    
+}
+
+
+
+
+
+
+
 
 function displayMadeRecipe(event) {
     event.preventDefault()
@@ -154,18 +179,6 @@ function displayMadeRecipe(event) {
         choiceDisplay.innerText = desserts[desserts.length - 1]
         addRecipePageDisplay()
     }
-}
-
-function addRecipePageDisplay() {
-    potImage.classList.add('hidden')
-    mealMessage.classList.remove('hidden')
-    nameError.classList.add('hidden')
-}
-
-function randomMealDisplayMessage() {
-    clearButton.classList.remove('hidden')
-    nameError.classList.add('hidden')
-    makeMessage.classList.remove('hidden') 
 }
 
 function displayMeals(event) {
