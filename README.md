@@ -5,10 +5,10 @@
 I created a random meal generating application that allows a user to customize and randomly generate meal ideas. Features added allows users to login, randomize meals, and create meals that can are saved and displayed on the UI.
 
 ## Installation Instructions:
-Fork it.
-Clone it. Copy and paste the SSH
-Open in text editor
-Run open index.html in the terminal
+- Fork it.
+- Clone it. Copy and paste the SSH
+- Open in text editor
+- Run open index.html in the terminal
 
 ## Preview of App:
 
