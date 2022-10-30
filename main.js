@@ -158,17 +158,17 @@ function displayMadeRecipe(event) {
         nameError.classList.remove('hidden')
         return
     }
-    if (recipeTypeText.value.toLowerCase() === 'side') {
+    if (recipeTypeText.value === 'side') {
         sides.push(recipeNameText.value)
         choiceDisplay.innerText = sides[sides.length - 1]
         addRecipePageDisplay()
     } 
-    if (recipeTypeText.value.toLowerCase() === 'main dish') {
+    if (recipeTypeText.value === 'main dish') {
         mains.push(recipeNameText.value)
         choiceDisplay.innerText = mains[mains.length - 1]
         addRecipePageDisplay()
     } 
-    if (recipeTypeText.value.toLowerCase() === 'dessert') {
+    if (recipeTypeText.value === 'dessert') {
         desserts.push(recipeNameText.value)
         choiceDisplay.innerText = desserts[desserts.length - 1]
         addRecipePageDisplay()
