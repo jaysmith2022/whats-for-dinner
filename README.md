@@ -1,51 +1,30 @@
-# What's for Dinner?
-
-## Overview
-
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
 # What's for Dinner? 
 
-### Abstract:
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
 
-### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+## Abstract:
+I created a random meal generating application that allows a user to customize and randomly generate meal ideas. Features added allows users to login, randomize meals, and create meals that can are saved and displayed on the UI.
 
-### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+## Installation Instructions:
+Fork it.
+Clone it. Copy and paste the SSH
+Open in text editor
+Run open index.html in the terminal
 
-### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+## Preview of App:
 
-### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
 
-### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+https://user-images.githubusercontent.com/107894408/198860066-7f05ee08-f4a4-4a94-9683-05b7b9e9b9d0.mp4
 
-### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+
+## Context:
+This project was a fun way to test my ability to work with code and to have it placed where it needs to function properly. I had to think out side the box for most of this project since I decided not to work with a class to update the data model and DOM. It was a little tricky but in the end I got it to work. 
+
+## Contributors:
+[Jordan Smith](https://github.com/jaysmith2022)<br>
+
+## Learning Goals:
+Write clean, DRY JavaScript using functions and iterations. Manipulate the page after it has loaded adding to my data model and updating elements on the DOM
+
+## Wins + Challenges:
+Wins: Technical Wins included: Setting up the errors for the add a recipe button was difficult. I first started out with a function with no less than 13 if statement, but I quickly realized that I couldn't get it to fully function how I wanted it to. 
+Challenges included: The same technical win was the challenge. It took me a while to get the functionality to work and went through multiple iterations to get it to work. 
